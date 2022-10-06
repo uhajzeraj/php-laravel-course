@@ -1,0 +1,12 @@
+{
+    "name": "uranhajzeraj/04-interacting-with-the-database",
+    "authors": [
+        {
+            "name": "uhajzeraj",
+            "email": "uhajzeraj@hotmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
