@@ -34,3 +34,15 @@ $connection = DriverManager::getConnection($connectionParams);
 // foreach ($users as $user) {
 //     dump($user);
 // }
+//==============================================================================
+// $sql = 'SELECT * FROM users WHERE created_at >= :date';
+// $statement = $connection->prepare($sql);
+// $statement->bindValue('date', DateTime::createFromFormat('!Y-m-d', '2022-08-01'), 'datetime');
+
+// $result = $statement->executeQuery();
+
+// $users = $result->fetchAllAssociative();
+
+// foreach ($users as $user) {
+//     dump($user);
+// }
