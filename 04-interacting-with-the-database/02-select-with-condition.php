@@ -12,7 +12,7 @@ try {
 
     //========================================
     // Use this
-    $statement->bindValue(1, 2); // then do $statement->bindValue(':departmentId', 2); b
+    $statement->bindValue(1, 2); // then do $statement->bindValue('departmentId', 2); b
 
     $statement->execute();
     //========================================
