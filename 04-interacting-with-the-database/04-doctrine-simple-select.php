@@ -14,6 +14,7 @@ $connectionParams = [
 
 $connection = DriverManager::getConnection($connectionParams);
 
+//==============================================================================
 $sql = 'SELECT * FROM users';
 
 $result = $connection->executeQuery($sql);
@@ -21,9 +22,7 @@ $result = $connection->executeQuery($sql);
 while (($row = $result->fetchAssociative()) !== false) {
     dump($row);
 }
-
 //==============================================================================
-
 // $sql = 'SELECT * FROM users WHERE role = :role';
 // $statement = $connection->prepare($sql);
 // $statement->bindValue('role', 'admin');
