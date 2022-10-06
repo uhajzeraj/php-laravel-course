@@ -1,6 +1,7 @@
 [Composer homepage](https://getcomposer.org/)  
 [Packagist - The PHP Package Repository](https://packagist.org/)
 
-```shell
-composer require --dev symfony/var-dumper
-```
+**Note**:
+
+- Import the table `users` on `flossk_demo` database.
+- Install composer dependencies
