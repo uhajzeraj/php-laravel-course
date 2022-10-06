@@ -17,3 +17,5 @@ try {
     print $e->getMessage() . PHP_EOL;
     die();
 }
+
+// https://www.php.net/manual/en/pdo.constants.php
