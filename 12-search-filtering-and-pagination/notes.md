@@ -39,3 +39,18 @@ allow filtering on categories as well
 - add author filtering
 - allow combining categories and search filters in query parameter
 - discuss and fix issue when using WHERE and OR statements without grouping in parentheses
+
+---
+
+Pagination
+
+- Show difference between `paginate` and `simplePaginate`
+- Mention the `page` query parameter
+- Add the links
+  - `$posts->links()`
+  - Mention that they use tailwind styling by defalt
+  - Show how to override the design
+  - `php artisan vendor:publish` then look for **laravel-pagination**
+  - `Pagination::useTailwind()` on a Service Provider
+- Fix issue with query string being reset
+  - `->witQueryString()` on paginator
