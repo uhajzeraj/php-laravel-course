@@ -75,3 +75,13 @@ Add a register controller
     - Or better, throw a validation exception
       - `"throw ValidationException::withMessages(['email' => 'Your ...'])"`
     - Add a `"session()->regenerate();"` call to mitigate against a **session fixation attack**
+
+---
+
+- Laravel Breeze introduction
+  - Do so on a new example project
+  - Setup a database connection in `.env`
+  - Go through the entire routes and controllers added by Laravel
+    - Good learning tool
+  - Mention that it is a **starter kit** (not to be used 6 months down the line)
+- Mention other authentication kits (Jetstream)
