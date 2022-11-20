@@ -4,6 +4,48 @@
 
 ---
 
+## During lecturing
+
+The instructor will create an app, called **TechHub**, where users can add tech-related posts.
+
+The features will include:
+
+- **Adding posts**
+  - Will have an author
+  - Will belong to one category
+  - Will have tags
+    - Zero or more
+- **Author can create new posts or update existing ones**
+  - Only the post author is allowed to do that
+- **Authentication**
+  - Users can:
+    - Register
+    - Authenticate
+    - Change their display name
+    - Change their password
+    - Reset their password if they forget it
+- **Posts can have comments**
+  - By other users
+  - By anonymous users
+- **Posts can be searched and filtered, by the**:
+  - Title, execrpt or content
+  - Author
+  - Category
+  - Tags
+  - Date
+- **Will integrate a TailwindCSS basic design**
+- **Admin section**
+  - Admin can:
+    - Mark posts as deleted
+    - Ban other users
+
+## If these requirements are met, based on the timeline of the project, the following features can be added:
+
+- **Adding third-party authentication**
+  - For example, via GitHub
+
+---
+
 ## During practice
 
 Throughout the course, students will have to create an web app.  
