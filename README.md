@@ -54,6 +54,32 @@ This will also be the app necessary for them to pass the course.
 
 The app to create will be a **todo app**.
 
+**Note**: Before getting started with Laravel, we have some chapters related to PHP and it's ecosystem.  
+Although the code on these chapters will not be used towards the final project, the students should still do exercises on these chapters, during the first week of the training.
+These should include:
+
+- **Creating a new PHP project on GitHub**
+  - Using the built-in PHP server
+  - Setting up SSH for their repositories
+  - Using Git cli, or a GUI client like sourcetree, GitHub Desktop, etc.
+- **Learning about commiting often and with meaningful messages**
+  - See atomic commits
+- **Creating classes, value objects**
+  - Should be related to classes we'll need for the final project, like:
+    - Todo
+    - Project
+    - User
+    - Priority Level
+    - Comment
+- **Initializing composer on a new PHP project, adding packages and autoloading**
+  - Learn about the difference on autoloading
+    - PSR 4
+    - Classmap
+    - Files
+  - Difference between `require` and `require-dev`
+- **Connecting to a database via PDO and doctrine/dbal**
+  - See chapter 4
+
 ### The basic requirements include:
 
 - **Create todos**
