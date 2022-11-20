@@ -64,3 +64,14 @@ Add a register controller
   - `"auth()->logout()"`
   - Redirect back to homepage with a flash message
 
+---
+
+- Add login page and functionality
+  - Add `GET /login` endpoint
+  - Add `POST /login` endpoint
+    - Use `"auth()->attempt($attributes)"` to log the user in
+    - Use `"return back()->withErrors([email' => 'Your ...']);"`
+    - Use `"->withInput()"` as well to remember old input
+    - Or better, throw a validation exception
+      - `"throw ValidationException::withMessages(['email' => 'Your ...'])"`
+    - Add a `"session()->regenerate();"` call to mitigate against a **session fixation attack**
