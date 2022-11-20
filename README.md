@@ -43,6 +43,7 @@ The features will include:
 
 - **Adding third-party authentication**
   - For example, via GitHub
+- **Add automated tests for different parts of the application**
 
 ---
 
@@ -115,3 +116,4 @@ The app to create will be a **todo app**.
 - **Allow adding files for tasks or projects**
   - Can be any file
   - Images can be displayed
+- **Add automated tests for different parts of the application**
