@@ -48,3 +48,19 @@ Add a register controller
 - add AlpineJS functionality to hide the flash message after 3 seconds
 - extract a blade component
 - mention that `redirect()->with(...)` does also flash
+
+---
+
+- Log the user in after registering
+  - `Auth::login($user)`
+- Add a middleware for guests
+  - `->middleware('guest')` on a route
+  - Explain what middlewares are
+- Use the `"@guest ... @endguest"` directives in blade as well
+  - Also, `"@auth ... @else ... @endauth"`
+  - Or, `"@if (auth()->check()) ... @endif"`
+- Add logout functionality
+  - Add `POST /logout` endpoint
+  - `"auth()->logout()"`
+  - Redirect back to homepage with a flash message
+
