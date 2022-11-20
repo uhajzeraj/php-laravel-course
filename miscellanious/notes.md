@@ -30,3 +30,12 @@
 - Create a newsletter service
   - Has a subscribe method that accepts an email
 
+---
+
+- Explain how the service container on Laravel works
+- Show how to register something on the service container
+- Introduce an interface
+  - Mention why this is needed
+    - We are swapping our newsletter service
+- Show how to bind to an interface
+- Go through the Laravel documentation for service providers and service container
