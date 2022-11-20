@@ -39,7 +39,7 @@ The features will include:
     - Mark posts as deleted
     - Ban other users
 
-## If these requirements are met, based on the timeline of the project, the following features can be added:
+### If these requirements are met, based on the timeline of the project, the following features can be added:
 
 - **Adding third-party authentication**
   - For example, via GitHub
