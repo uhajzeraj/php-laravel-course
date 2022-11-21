@@ -39,3 +39,18 @@
     - We are swapping our newsletter service
 - Show how to bind to an interface
 - Go through the Laravel documentation for service providers and service container
+
+---
+
+### Admin section
+
+---
+
+- Add an endpoint for adding posts from an admin
+- Add a simple middleware
+  - Check if the user is authenticated
+  - Check if the authenticated user is an admin
+  - Maybe remove the first check by using the null safe operator (PHP 8)
+  - Explain middleware on `"app/Http/Kernel.php"`
+- Add a form for adding a new post
+
