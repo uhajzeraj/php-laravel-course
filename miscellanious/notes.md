@@ -54,3 +54,20 @@
   - Explain middleware on `"app/Http/Kernel.php"`
 - Add a form for adding a new post
 
+---
+
+- Allow uploading a post thumbnail
+  - Change form enctype to multipart/form-data
+  - Mention Laravel's `"UploadedFile"` class
+  - Show what `"$request->file($filename)->store($location)"` does
+  - Store on the public filesystem
+    - Show how to create a symlink
+    - Explain what symlinks are
+  - Add a `thumbnail_path` column to the **posts** table
+  - Add image validation - `"...|image"`
+  - Use the `"asset()"` helper on the blade template
+  - Extract components for form input
+    - Type can be a prop passed to the component
+    - Labels can be a component
+    - Errors can be a component
+- Add a dropdown menu
