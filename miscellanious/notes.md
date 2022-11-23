@@ -79,3 +79,16 @@
   - On the form, add the `"@method('PATCH')"` directive
   - Handle adding new and removing old thumbnail if reuploaded
 - Add delete endpoint
+
+---
+
+- Extract the validation logic to a method since it's similar between creating and updating posts
+  - Mention form requests and how they work
+- Use Gate facade to check if user is admin
+  - To be used on blade files for the dropdown options
+- Show how to use gates
+  - `Gate::allows(...)`
+  - `$user->can(...)`
+  - `$this->authorize(...)` - returns a response
+  - `@can(...)`
+  - `->middleware('can:...,$params')`
