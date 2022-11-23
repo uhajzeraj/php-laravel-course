@@ -71,3 +71,11 @@
     - Labels can be a component
     - Errors can be a component
 - Add a dropdown menu
+
+---
+
+- Add admin endpoint and view for listing posts
+- Add admin endpoint and view to edit an existing post
+  - On the form, add the `"@method('PATCH')"` directive
+  - Handle adding new and removing old thumbnail if reuploaded
+- Add delete endpoint
