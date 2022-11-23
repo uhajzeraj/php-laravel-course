@@ -92,3 +92,18 @@
   - `$this->authorize(...)` - returns a response
   - `@can(...)`
   - `->middleware('can:...,$params')`
+
+---
+
+Things to be added:
+
+- Tests
+- Other eloquent relationships
+- Queues
+- Commands
+- Cron jobs
+- Events
+- Compiling assets
+- Notifications
+- API responses
+- Third party packages
