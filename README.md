@@ -34,6 +34,7 @@ The features will include:
   - Tags
   - Date
 - **Will integrate a TailwindCSS basic design**
+- **Will integrate AlpineJS for website interactivity**
 - **Admin section**
   - Admin can:
     - Mark posts as deleted
