@@ -1,6 +1,6 @@
 # Learning material for FLOSSK's PHP and Laravel course
 
-[Course timeframe and additional info](https://docs.google.com/spreadsheets/d/1JhF0zgAZBPpPpELls8L43TYbRqCkUKggqxQoJApKycI/edit?usp=sharing)
+**For lecturers\*** - [Course timeframe and additional info](https://docs.google.com/spreadsheets/d/1JhF0zgAZBPpPpELls8L43TYbRqCkUKggqxQoJApKycI/edit?usp=sharing)
 
 ---
 
