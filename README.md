@@ -80,7 +80,7 @@ These should include:
 - **Connecting to a database via PDO and doctrine/dbal**
   - See chapter 4
 
-### The basic requirements include:
+### The basic requirements for the todo app include:
 
 - **Create todos**
   - Should include a title and content
