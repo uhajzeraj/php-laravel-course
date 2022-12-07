@@ -50,6 +50,7 @@ The features will include:
     - Endpoints
     - Commands
     - Cron jobs
+- **Replace AplineJS with React for a more robust application**
 
 ---
 
