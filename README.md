@@ -143,3 +143,8 @@ These should include:
   - Can be any file
   - Images can be displayed
 - **Add automated tests for different parts of the application**
+  - Unit tests for single classes throughout the project
+  - Feature/integration tests for testing whole flows, such as:
+    - Endpoints
+    - Commands
+    - Cron jobs
