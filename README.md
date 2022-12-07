@@ -137,7 +137,7 @@ These should include:
   - Track completion time
   - **Optional**: Display results in graphs
 - **Make the app feel like an SPA**
-  - Use AlpineJS or react to perform ajax most of the calls
+  - Use AlpineJS or React to perform ajax most of the calls
   - Add simple toasts to display success/error messages
 - **Allow adding files for tasks or projects**
   - Can be any file
