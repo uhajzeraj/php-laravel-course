@@ -45,6 +45,11 @@ The features will include:
 - **Adding third-party authentication**
   - For example, via GitHub
 - **Add automated tests for different parts of the application**
+  - Unit tests for single classes throughout the project
+  - Feature/integration tests for testing whole flows, such as:
+    - Endpoints
+    - Commands
+    - Cron jobs
 
 ---
 
