@@ -8,8 +8,10 @@
 ---
 
 - Include some **.css** and **.js** in `public/` directory
-
   - For the moment
+  - \*Explain that static assets MUST be in a publicly accesible place
+
+---
 
 - Create `GET /posts` endpoint and view
   - 3 posts, all static
