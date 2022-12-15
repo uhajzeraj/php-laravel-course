@@ -24,35 +24,32 @@
 - Rename the route to `GET /posts/{post}`
   - Explain {post} wildcard
 - Add check if file exists or not
-
   - use `abort(404)` or `redirect('/')`
-
 - add constraint to the route wildcard
-
   - `->where('post', '[A-z_\-]+’)`
   - try with `[a-zA-Z]+` constraint
 
+---
+
 - **adding caching for the files**
 - `cache()->remember()`
-
   - explain what it does and what the arguments mean
   - MAYBE: explain different caching systems
 
-- **using a model not backed by a database**
+---
 
-  - create a post model - doesn’t extend anything
-  - add a static method `find`
-  - move getting the file and caching to this method
-  - make use of `resource_path()`
-  - replace `redirect()` with throwing **ModelNotFoundException**
+**using a model not backed by a database**
 
-  - add a `Post::all()` method
-
-    - use **File facade** - `File::files()`
-    - use `array_map` and get the contents of each file
-
-  - add a metadata section
-    - at the top of a posts html file
+- create a post model - doesn’t extend anything
+- add a static method `find`
+- move getting the file and caching to this method
+- make use of `resource_path()`
+- replace `redirect()` with throwing **ModelNotFoundException**
+- add a `Post::all()` method
+  - use **File facade** - `File::files()`
+  - use `array_map` and get the contents of each file
+- add a metadata section
+  - at the top of a posts html file
 
 ```html
 ---
@@ -62,11 +59,12 @@ date: 2022-10-18
 ---
 ```
 
-- [GitHub - spatie/yaml-front-matter: A to the point yaml front matter parser](https://github.com/spatie/yaml-front-matter)
-  - `YamlFrontMatter::parseFile()`
+[GitHub - spatie/yaml-front-matter: A to the point yaml front matter parser](https://github.com/spatie/yaml-front-matter)
+
+`YamlFrontMatter::parseFile()`
+
 - add properties to **Post** model for the metadata and the body
 - also add a constructor
-
 - add **slug** to the metadata
 - use collections to clean up code a little
 - move code to `Post::all`
