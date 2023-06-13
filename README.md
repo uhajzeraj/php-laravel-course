@@ -1,4 +1,4 @@
-# Learning material for FLOSSK's PHP and Laravel course
+# Learning material for PHP and Laravel course
 
 **For lecturers\*** - [Course timeframe and additional info](https://docs.google.com/spreadsheets/d/1JhF0zgAZBPpPpELls8L43TYbRqCkUKggqxQoJApKycI/edit?usp=sharing)
 
